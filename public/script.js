@@ -5,6 +5,12 @@ const chatbox = document.querySelector(".chatbox");
 const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
 
+// code for URL input box here
+document.getElementById("trainButton").addEventListener("click", function () {
+            // Add your JavaScript logic here for handling the button click event
+            alert("Training Chatbot with URL: " + document.getElementById("urlInput").value);
+        });
+
 // User message and initial input height
 let userMessage = null;
 const inputInitHeight = chatInput.scrollHeight;
