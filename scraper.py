@@ -24,6 +24,9 @@ def scrape_text(url):
             # Remove extra whitespaces
             cleaned_text = ' '.join(combined_text.split())
             return cleaned_text
+        with open('output.txt', 'w') as file:
+            # Redirect the print output to the file
+            print(cleaned_text, file=file)
         else:
             print(f"Failed to retrieve content from {url}. Status code: {response.status_code}")
             return None
@@ -55,10 +58,14 @@ def scrape_subpages(base_url, depth=2):
                       continue
                     else: 
                       url_list.append(subpage_url)
+                        with open('output.txt', 'w') as file:
+                            # Redirect the print output to the file
+                            print(cleaned_text, file=file)
                       scrape_subpages(subpage_url, depth - 1)
     except Exception as e:
         print(f"An error occurred while scraping subpages: {str(e)}")
 
 if __name__ == "__main__":
-    base_url = "https://www.synapse-ml.com"  # Replace with your desired URL
+    ##### What is the code that takes the inputted URL and assigns it to base_url ??
+    base_url = "url goes in here"  # Replace with inputted URL
     scrape_subpages(base_url)
