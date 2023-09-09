@@ -4,20 +4,7 @@ const closeBtn = document.querySelector(".close-btn");
 const chatbox = document.querySelector(".chatbox");
 const chatInput = document.querySelector(".chat-input textarea");
 const sendChatBtn = document.querySelector(".chat-input span");
-const fileInput = document.getElementById('file-input');
-const fileNameDisplay = document.getElementById('file-name');
 
-// Listen for changes in the file input
-fileInput.addEventListener('change', () => {
-    const selectedFile = fileInput.files[0];
-    if (selectedFile) {
-        // Display the selected file name
-        fileNameDisplay.textContent = `Selected File: ${selectedFile.name}`;
-    } else {
-        // Clear the file name display if no file is selected
-        fileNameDisplay.textContent = '';
-    }
-});
 
 // code for URL input box here
 document.getElementById("trainButton").addEventListener("click", function () {
