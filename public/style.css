@@ -8,7 +8,7 @@
 }
 body {
   /*new code for input url box*/
-  display: inline-block;
+  display: block;
             justify-content: center;
             align-items: center;
             height: 100vh;
