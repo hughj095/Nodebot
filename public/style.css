@@ -7,8 +7,35 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: #E3F2FD;
+  /*new code for input url box*/
+  display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+
+  /* commented out for new code input URL box */
+  /* background: #E3F2FD; */
 }
+.container {
+            text-align: center;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;
