@@ -9,11 +9,11 @@
 body {
   /*new code for input url box*/
   display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
 
   /* commented out for new code input URL box */
   /* background: #E3F2FD; */
@@ -34,12 +34,13 @@ body {
 }
 
 #file-input {
-    display: inline;
+    display: none;
 }
 
 /* Style the selected file name */
 #file-name {
     margin-top: 10px;
+}
 .container {
             text-align: center;
         }
