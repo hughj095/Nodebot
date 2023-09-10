@@ -24,7 +24,7 @@ body {
 }
 
 .container p {
-  margin: 20px auto; /* Add space (20px in this example) above and below the paragraph */
+  margin: 40px auto; /* Add space (20px in this example) above and below the paragraph */
   width: fit-content; /* Optional: Adjust the width of the paragraph */
 }
 
