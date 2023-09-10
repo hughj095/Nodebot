@@ -20,23 +20,28 @@ body {
 }
 
 .container {
-            text-align: center;
-        }
+    text-align: center;
+}
 
-        input[type="text"] {
-            width: 300px;
-            padding: 10px;
-            font-size: 16px;
-        }
+.container p {
+  margin: 0 auto; /* Center-align the paragraph within the div */
+  width: fit-content; /* Optional: Adjust the width of the paragraph */
+}
 
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-        }
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;
