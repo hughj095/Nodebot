@@ -44,7 +44,7 @@ body {
 /* Style for the Login link on the top right */
 .login-link {
     position: absolute;
-    top: 10px; /* Adjust the distance from the top as needed */
+    top: 2px; /* Adjust the distance from the top as needed */
     right: 10px; /* Adjust the distance from the right as needed */
     float: none;
     display: block;
