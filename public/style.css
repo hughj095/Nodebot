@@ -24,6 +24,7 @@ body {
 .navbar {
     background-color: #333;
     overflow: hidden;
+    text-align: center;
 }
 
 .navbar a {
@@ -42,7 +43,7 @@ body {
 
 /* Style for the Login link on the top right */
 .login-link {
-    float: right;
+    float: none;
     display: block;
     color: white;
     text-align: center;
