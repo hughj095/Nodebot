@@ -9,7 +9,7 @@
 body {
   /*new code for input url box*/
   display: block;
-  /*justify-content: center;*/
+  justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
@@ -43,7 +43,6 @@ body {
 
 /* Style for the Login link on the top right */
 .login-link {
-    justify-content: flex-end;
     float: right;
     display: inline;
     color: white;
