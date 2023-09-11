@@ -43,11 +43,11 @@ body {
 
 /* Style for the Login link on the top right */
 .login-link {
-    float: none;
+    float: right;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 160px;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
