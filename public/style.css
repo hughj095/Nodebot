@@ -29,7 +29,7 @@ body {
 
 .navbar a {
     float: none;
-    display: block;
+    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -43,8 +43,8 @@ body {
 
 /* Style for the Login link on the top right */
 .login-link {
-    float: none;
-    display: block;
+    float: right;
+    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
