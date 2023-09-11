@@ -43,6 +43,7 @@ body {
 
 /* Style for the Login link on the top right */
 .login-link {
+    position: absolute;
     float: none;
     display: block;
     color: white;
