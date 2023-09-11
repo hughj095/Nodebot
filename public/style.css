@@ -43,6 +43,7 @@ body {
 
 /* Style for the Login link on the top right */
 .login-link {
+    justify-content: flex-end;
     float: right;
     display: inline;
     color: white;
