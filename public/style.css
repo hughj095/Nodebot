@@ -27,8 +27,8 @@ body {
 }
 
 .navbar a {
-    float: center;
-    display: flex;
+    float: left;
+    display: inline;
     color: white;
     text-align: center;
     padding: 14px 16px;
