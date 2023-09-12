@@ -23,6 +23,12 @@
         <button id="trainButton">Train Chatbot</button>
         <p>Place for inputting file for training data</p>
     </div>
+
+    <h2>Upload a File</h2>
+    <form enctype="multipart/form-data" action="upload.php" method="post">
+        <input type="file" name="file" accept=".pdf, .doc, .docx, .xls, .xlsx, .txt">
+        <input type="submit" value="Upload">
+    </form>
     
     <!-- end of new code -->
 
