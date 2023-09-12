@@ -57,6 +57,13 @@ body {
 }
 /* end of navbar */
 
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
 
 .container {
     text-align: center;
