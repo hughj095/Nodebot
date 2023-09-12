@@ -41,6 +41,7 @@ body {
     color: black;
 }
 
+
 /* Style for the Login link on the top right */
 .login-link {
     float: right;
@@ -57,7 +58,10 @@ body {
 }
 /* end of navbar */
 
-
+h3 {
+  text-align: center;
+  margin: 40px auto;
+}
 
 .container {
     text-align: center;
