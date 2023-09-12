@@ -23,11 +23,11 @@
         <button id="trainButton">Train Chatbot</button>
     </div>
 
-    <h2>Upload a File</h2>
-    <form enctype="multipart/form-data">
-        <input type="file" name="file" id="fileInput" accept=".pdf, .doc, .docx, .xls, .xlsx, .txt">
-        <input type="button" value="Upload" onclick="handleUpload()">
-    </form>
+    <div id="file-upload-container">
+        <label for="file-input" id="upload-label">Choose a file to upload:</label>
+        <input type="file" id="file-input" accept=".txt, .doc, .docx, .pdf, .xls, .xlsx, .csv">
+        <button id="upload-button">Upload</button>
+    </div>
     
     <!-- end of new code -->
 
