@@ -21,13 +21,12 @@
     <div class="container">
         <input type="text" id="urlInput" placeholder="Enter a URL here">
         <button id="trainButton">Train Chatbot</button>
-        <p>Place for inputting file for training data</p>
     </div>
 
     <h2>Upload a File</h2>
-    <form enctype="multipart/form-data" action="upload.php" method="post">
-        <input type="file" name="file" accept=".pdf, .doc, .docx, .xls, .xlsx, .txt">
-        <input type="submit" value="Upload">
+    <form enctype="multipart/form-data">
+        <input type="file" name="file" id="fileInput" accept=".pdf, .doc, .docx, .xls, .xlsx, .txt">
+        <input type="button" value="Upload" onclick="handleUpload()">
     </form>
     
     <!-- end of new code -->
