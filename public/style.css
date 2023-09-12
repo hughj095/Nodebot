@@ -84,13 +84,38 @@ button {
     cursor: pointer;
 }
 
-h2 {
-    text-align: center;
-    top-margin: 1000px;
+/* Center the container on the page */
+#file-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% of the viewport height for vertical centering */
 }
 
-form {
-    text-align: center;
+/* Style the label */
+#upload-label {
+    margin-bottom: 10px; /* Add some space between label and button */
+}
+
+/* Style the input type file */
+#file-input {
+    display: none; /* Hide the file input visually */
+}
+
+/* Style the upload button */
+#upload-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add hover effect to the button */
+#upload-button:hover {
+    background-color: darkblue;
 }
 
 .chatbot-toggler {
